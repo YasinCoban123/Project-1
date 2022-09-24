@@ -1,6 +1,6 @@
 
 html {
-  font-size: 62.5%;
+  font-size: 35%;
 }
 body {
   font-family: "Goldman", cursive;
@@ -27,9 +27,31 @@ nav li {
   padding: 0 4rem 0 4rem;
 }
 nav a {
-  color: #11c700;
+  color: white;
   text-decoration: none;
 }
 nav img {
   width: 10vw;
 }
+footer {
+  width: 100%;
+  background-color:darkgreen;
+  min-height: 150px;
+  }
+  p{
+  font-size: 20px;
+  }
+  footer ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 15px;
+  }
+  footer li {
+    font-size: 2rem;
+    padding: 0 4rem 0 4rem;
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
